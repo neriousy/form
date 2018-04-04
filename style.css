@@ -1,0 +1,103 @@
+html {
+    background: radial-gradient(#ff7600, #faad00, #ff7600);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto 0 auto;
+}
+
+.line {
+    width: 35%;
+    height: 50px;
+    background-color: #fff;
+    border-bottom: 1px solid #d1d1d1;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: 50px auto 0 auto;
+
+}
+
+.white {
+    width: 35%;
+    height: 400px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow:column nowrap;
+    box-shadow: 5px 10px 25px -10px #4b4545;
+    margin: 0 auto 0 auto;
+}
+
+form {
+    display: flex;
+    flex-flow:column nowrap;
+    align-items: center;
+    width: 100%;
+
+}
+
+input[type="text"],
+input[type="email"] {
+    display: block;
+    margin-bottom: 10px;
+    width: 50%;
+    font-size: 15px;
+    padding: 10px;
+
+}
+
+.step {
+    color: #ff6200;
+    font-size: 30px;
+}
+
+.text {
+    color: #9a9595;
+    margin:-10px 0 20px 0;
+}
+
+[type="text"]:focus {
+    outline-color: #ff9300;
+}
+
+[type="email"]:focus {
+    outline-color: #ff9300;
+}
+
+[type="button"] {
+    background-color: #ff3100;
+    color: white;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.full {
+    width: 13px;
+    height: 13px;
+    border-radius: 20px;
+    background-color: #ff7600;
+    margin: 10px;
+}
+
+.empty_one {
+    width: 13px;
+    height: 13px;
+    border-radius: 10px;
+    background-color: #c6c6c6;
+}
+
+.empty_two {
+    width: 13px;
+    height: 13px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #c6c6c6;
+}
