@@ -106,3 +106,15 @@ input[type="email"]::placeholder {
     margin: 10px;
     background-color: #c6c6c6;
 }
+
+@media (min-width: 321px) and (max-width: 767px){
+    .line{
+        width:90%;
+    }
+    .white{
+        width:90%;
+    }
+    .step{
+        margin-top:-40px;
+    }
+}
